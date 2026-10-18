@@ -1,8 +1,11 @@
-#include <iostream>
+#include <fcntl.h> // gives access to open()
+#include <unistd.h> // give me access to write(), read(), close()
+#include <cstdio> // give me access to perror()
+#include <iostream> // std::cout
+#include <unordered_map>
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 int main() {
-    std::cout << "Hello, world!!" << "\n";
+
     return 0;
 }
