@@ -1,0 +1,5 @@
+phase,lookup,sstables,mean_us,p50_us,p99_us
+before,hit,87,2.76014,2.639,7.19
+before,miss,87,68.6472,62.425,121.159
+after,hit,1,1.24743,1.126,2.052
+after,miss,1,0.793741,0.718,1.216
